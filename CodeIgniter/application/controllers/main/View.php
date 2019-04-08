@@ -14,10 +14,10 @@ class View extends CI_Controller {
 
         // setting title by sub page
         $data['title'] = array(
-          'Contents1',
-          'Contents2',
-          'Contents3',
-          'Contents4'
+          '1' => 'Contents1',
+          '2' => 'Contents2',
+          '3' => 'Contents3',
+          '4' => 'Contents4'
         );
 
         // get contents by sub page
@@ -25,7 +25,7 @@ class View extends CI_Controller {
 
         // get sub page view
         foreach($contents as $idx => $item) {
-          $data['sub'][$idx] = $this->load->view('main/sub/sub' . $idx, $item, true);
+          $data['sub'][$idx] = $this->load->view('main/sub/sub' . $idx, array('contents' => $item), true);
         }
 
         // load main view

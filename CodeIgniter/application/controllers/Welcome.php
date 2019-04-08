@@ -20,6 +20,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		// setting default page main/view
+		$this->redirect('main/view');
 	}
+
+	// Add redirect fucntion 'aaa.bbb.ccc/' . $url
+	function redirect($url, $statusCode = 303) {
+			header('Location: ' . $url, true, $statusCode);
+			die();
+	}
+
 }

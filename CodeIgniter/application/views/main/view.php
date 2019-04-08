@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class='contents-line'>
                   <?php foreach($sub as $idx => $item) : ?>
-                    <div class='contents contents<?= $idx ?> active' data-mcs-theme="minimal-dark" idx='<?= $idx ?>'>
+                    <div class='contents contents<?= $idx ?> <?php if($idx == '1') : ?> active <?php endif; ?>' data-mcs-theme="minimal-dark" idx='<?= $idx ?>'>
                         <?= $item ?>
                     </div>
                   <?php endforeach; ?>
