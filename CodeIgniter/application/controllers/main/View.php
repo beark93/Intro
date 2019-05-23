@@ -14,10 +14,10 @@ class View extends CI_Controller {
 
         // setting title by sub page
         $data['title'] = array(
-          '1' => 'Contents1',
-          '2' => 'Contents2',
-          '3' => 'Contents3',
-          '4' => 'Contents4'
+          '1' => 'Profile',
+          '2' => 'Introduce',
+          '3' => 'Portfolio',
+          '4' => 'Contact'
         );
 
         // get contents by sub page

@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.css" />
         <script src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
@@ -17,23 +18,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             .main-width .main-banner .main-sub {font-family: 'Jua', sans-serif; color: #ffffff; font-size:15px;}
             .main-width .main-contents {float:left; margin-bottom:10px; width:100%; height:600px; position:relative;}
             .main-width .main-contents .tab-line{float:left; width:100%; height:10%; background-color:#eeeeee; position:relative; cursor: pointer;}
-            .main-width .main-contents .tab-line .tab{float:left; width:25%; height:100%; padding-top:20px; text-align: center; box-sizing: border-box;}
+            .main-width .main-contents .tab-line .tab{float:left; width:25%; height:100%; padding-top:12px; text-align: center; box-sizing: border-box;}
             .main-width .main-contents .tab-line .tab1{background-color:#FFAF0A;}
             .main-width .main-contents .tab-line .tab2{background-color:#D27D32;}
             .main-width .main-contents .tab-line .tab3{background-color:#5F9EA0;}
             .main-width .main-contents .tab-line .tab4{background-color:#8c8c8c;}
-            .main-width .main-contents .tab-line .tab-name{font-family: 'Jua', sans-serif; color: #000000; font-size:20px;}
+            .main-width .main-contents .tab-line .tab-name{font-family: 'Teko', sans-serif; color: #000000; font-size:28px;}
             .main-width .main-contents .contents-line{float:left; width:100%; height:90%; position:relative;}
             .main-width .main-contents .contents-line .contents{width:100%; height:100%; display:none; box-sizing: border-box; position:relative;}
             .main-width .main-contents .contents-line .active{display:block;}
             .main-width .main-contents .contents-line .contents .big-font{font-family: 'Jua', sans-serif; color: #f50057; font-size:100px;}
+            .main-width .main-contents .contents-line .contents .main-font{font-family: 'Jua', sans-serif; color: #000000; font-size:30px;}
+            .main-width .main-contents .contents-line .contents .small-font{font-family: 'Jua', sans-serif; color: #000000; font-size:20px;}
             .main-width .main-contents .contents-line .contents1{background-color:#FFAF0A; padding:15px; box-sizing: border-box;}
             .main-width .main-contents .contents-line .contents2{background-color:#D27D32; padding:15px; box-sizing: border-box;}
             .main-width .main-contents .contents-line .contents2 .love{height:320px; position:relative; width:268.5px; margin:0 auto; padding-top:220px; box-sizing: border-box;}
             .main-width .main-contents .contents-line .contents3{background-color:#5F9EA0; padding:15px; box-sizing: border-box;}
             .main-width .main-contents .contents-line .contents4{background-color:#8c8c8c; padding:15px; box-sizing: border-box;}
-            .main-width .main-contents .contents-line .contents-sub{width:100%; height:100%; position:relative;}
-
+            .main-width .main-contents .contents-line .contents-sub{width:100%; height:auto; position:relative;}
+            .main-width .main-contents .contents-line .contents-sub1{width:80%; margin:0 auto;}
+            .main-width .main-contents .contents-line .contents-sub1 .sub1-ul li{margin-bottom:5px;}
         </style>
     </head>
     <body>
