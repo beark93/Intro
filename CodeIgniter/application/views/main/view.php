@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.css" />
         <script src="/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="/favicon.ico">
         <style>
             html, body {height: 100%;}
             body {background-color:#343434; margin:0;}
