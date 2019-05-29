@@ -1,6 +1,6 @@
 <div class='contents-sub contents-sub4'>
   <span class="home-font">Email: beark93@gmail.com</span></br>
-  <span class="home-font">Blog: <a class="home-font" href="/">-</a></span></br>
+  <span class="home-font">Blog: <a class="home-font" href="https://kimby.tistory.com/">https://kimby.tistory.com/</a></span></br>
   <div class='sub4-icons'>
     <div class="icons-center">
       <div class="icon fb_icon"></div>
