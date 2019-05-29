@@ -1,5 +1,22 @@
 <div class='contents-sub contents-sub4'>
-  <?php for($i=0;$i<10;$i++) : ?>
-    <font class='big-font'><?= $contents ?></font></br>
-  <?php endfor; ?>
+  <span class="home-font">Email: beark93@gmail.com</span></br>
+  <span class="home-font">Blog: <a class="home-font" href="/">-</a></span></br>
+  <div class='sub4-icons'>
+    <div class="icons-center">
+      <div class="icon fb_icon"></div>
+      <div class="icon insta_icon"></div>
+      <div class="icon git_icon"></div>
+    </div>
+  </div>
 </div>
+<script>
+ $('.fb_icon').click(function() {
+   window.open('https://www.facebook.com/byoungyoung.kim.1');
+ });
+ $('.insta_icon').click(function() {
+   window.open('https://www.instagram.com/kimby93/');
+ });
+ $('.git_icon').click(function() {
+   window.open('https://github.com/beark93');
+ });
+</script>

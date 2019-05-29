@@ -14,7 +14,7 @@ class View extends CI_Controller {
 
         // setting title by sub page
         $data['title'] = array(
-          '1' => 'Profile',
+          '1' => 'Home',
           '2' => 'Introduce',
           '3' => 'Portfolio',
           '4' => 'Contact'
