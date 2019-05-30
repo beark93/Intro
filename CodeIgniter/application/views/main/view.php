@@ -49,6 +49,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             .main-width .main-contents .contents-line .contents-sub2 .sub2-left-top{width:100%; padding-top:15px; padding-bottom: 30px; border-bottom:solid 2px #000000;}
             .main-width .main-contents .contents-line .contents-sub2 .sub2-left-bottom{width:100%; padding:15px 0;}
             .main-width .main-contents .contents-line .contents-sub2 .sub2-right-top{width:100%; padding:15px 0;}
+            .main-width .main-contents .contents-line .contents-sub3{width:90%; margin:0 auto;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio{width:100%; height:auto; position:relative; padding:25px 0; float:left; border-bottom: dashed 1px black;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf_img{width:30%; margin-right: 5%; float:left; cursor:pointer;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf_content{width:65%; float:left;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf_content.full{width:100%;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf-title{font-family:'Teko', sans-serif; color:#000000; font-size:25px; font-weight:bold; margin-bottom:10px; display:inline-block;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf-ul{font-family:'Do Hyeon', sans-serif; color:#000000; font-size:20px; margin:0px; list-style:none; padding-inline-start:10px; line-height: 1.5em;}
+            .main-width .main-contents .contents-line .contents-sub3 .portfolio .pf-ul li{background-image: url(/image/black_box.png); background-repeat: no-repeat; background-position-y: 9px; background-size: 6px; text-indent: 16px;}
             .main-width .main-contents .contents-line .contents-sub4{width:90%; margin:0 auto; margin-top: 160px; text-align: center;}
             .main-width .main-contents .contents-line .contents-sub4 .sub4-icons{width:100%; margin-top:100px;}
             .main-width .main-contents .contents-line .contents-sub4 .icons-center{width: 340px; height: 100px; margin: 0 auto;}

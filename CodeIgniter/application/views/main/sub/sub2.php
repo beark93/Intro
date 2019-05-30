@@ -5,7 +5,6 @@
       <div sytle="width:100% position:relation;">
         <ul class="about-ul">
           <li>이름: 김병영(Kim ByeongYeong)</li>
-          <li></li>
           <li>경기도 안산시 출생 및 거주</li>
           <li>강점: 책임감 / 약점: 사교성</li>
           <li>취미: 기타(악기) / 특기: 농구</li>
